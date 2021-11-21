@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: I Spy Configuration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: facebookhackathon
+    id: 1509821329386648
+    lang: en
+    isPrivate: 1
+    createdAt: 2021-11-10T06:12:50-0800
+  configId: 74f17110584875d438c76cba2242da14
+  clientAccessToken: WDIO2FLO3JOW4QV6WISNNJYJ7ZC3DOEV
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 408300054173484
+    name: color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: black
+      synonyms:
+      - black
+    - keyword: green
+      synonyms:
+      - green
+    - keyword: red
+      synonyms:
+      - red
+  - witConfiguration: {fileID: 11400000}
+    id: 1185952691810493
+    name: item
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1310192856115823
+    name: shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: capsule
+      synonyms:
+      - capsule
+    - keyword: cube
+      synonyms:
+      - cube
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 572947320626510
+    name: change_color
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 418499946315541
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 886032312282573
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 614047649920018
+    name: greeting
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 619495235855302
+    name: noticeGirl
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 683891939261541
+    name: start
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1011796839403616
+    name: wit$get_sunrise
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 418499946315541
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 886032312282573
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []

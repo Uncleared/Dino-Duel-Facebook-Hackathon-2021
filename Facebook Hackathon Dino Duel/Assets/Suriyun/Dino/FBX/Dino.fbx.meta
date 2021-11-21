@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: bb9b5fc491ada424096b903f207a19ac
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ArmL1
+  - first:
+      1: 100002
+    second: ArmL2
+  - first:
+      1: 100004
+    second: ArmL3
+  - first:
+      1: 100006
+    second: ArmR1
+  - first:
+      1: 100008
+    second: ArmR2
+  - first:
+      1: 100010
+    second: ArmR3
+  - first:
+      1: 100012
+    second: Character1_Ctrl_ChestEndEffector
+  - first:
+      1: 100014
+    second: Character1_Ctrl_ChestOriginEffector
+  - first:
+      1: 100016
+    second: Character1_Ctrl_Head
+  - first:
+      1: 100018
+    second: Character1_Ctrl_HeadEffector
+  - first:
+      1: 100020
+    second: Character1_Ctrl_Hips
+  - first:
+      1: 100022
+    second: Character1_Ctrl_HipsEffector
+  - first:
+      1: 100024
+    second: Character1_Ctrl_LeftAnkleEffector
+  - first:
+      1: 100026
+    second: Character1_Ctrl_LeftArm
+  - first:
+      1: 100028
+    second: Character1_Ctrl_LeftElbowEffector
+  - first:
+      1: 100030
+    second: Character1_Ctrl_LeftFoot
+  - first:
+      1: 100032
+    second: Character1_Ctrl_LeftForeArm
+  - first:
+      1: 100034
+    second: Character1_Ctrl_LeftHand
+  - first:
+      1: 100036
+    second: Character1_Ctrl_LeftHipEffector
+  - first:
+      1: 100038
+    second: Character1_Ctrl_LeftKneeEffector
+  - first:
+      1: 100040
+    second: Character1_Ctrl_LeftLeg
+  - first:
+      1: 100042
+    second: Character1_Ctrl_LeftShoulderEffector
+  - first:
+      1: 100044
+    second: Character1_Ctrl_LeftUpLeg
+  - first:
+      1: 100046
+    second: Character1_Ctrl_LeftWristEffector
+  - first:
+      1: 100048
+    second: Character1_Ctrl_Neck
+  - first:
+      1: 100050
+    second: Character1_Ctrl_Reference
+  - first:
+      1: 100052
+    second: Character1_Ctrl_RightAnkleEffector
+  - first:
+      1: 100054
+    second: Character1_Ctrl_RightArm
+  - first:
+      1: 100056
+    second: Character1_Ctrl_RightElbowEffector
+  - first:
+      1: 100058
+    second: Character1_Ctrl_RightFoot
+  - first:
+      1: 100060
+    second: Character1_Ctrl_RightForeArm
+  - first:
+      1: 100062
+    second: Character1_Ctrl_RightHand
+  - first:
+      1: 100064
+    second: Character1_Ctrl_RightHipEffector
+  - first:
+      1: 100066
+    second: Character1_Ctrl_RightKneeEffector
+  - first:
+      1: 100068
+    second: Character1_Ctrl_RightLeg
+  - first:
+      1: 100070
+    second: Character1_Ctrl_RightShoulderEffector
+  - first:
+      1: 100072
+    second: Character1_Ctrl_RightUpLeg
+  - first:
+      1: 100074
+    second: Character1_Ctrl_RightWristEffector
+  - first:
+      1: 100076
+    second: Character1_Ctrl_Spine
+  - first:
+      1: 100078
+    second: //RootNode
+  - first:
+      1: 100080
+    second: Dino_Back
+  - first:
+      1: 100082
+    second: Dino_Body
+  - first:
+      1: 100084
+    second: Dino_Center
+  - first:
+      1: 100086
+    second: Dino_Face
+  - first:
+      1: 100088
+    second: Dino_Teeth
+  - first:
+      1: 100090
+    second: Head
+  - first:
+      1: 100092
+    second: Head_End
+  - first:
+      1: 100094
+    second: LegL1
+  - first:
+      1: 100096
+    second: LegL2
+  - first:
+      1: 100098
+    second: LegL3
+  - first:
+      1: 100100
+    second: LegR1
+  - first:
+      1: 100102
+    second: LegR2
+  - first:
+      1: 100104
+    second: LegR3
+  - first:
+      1: 100106
+    second: Mesh
+  - first:
+      1: 100108
+    second: Mouth_Top1
+  - first:
+      1: 100110
+    second: Mouth_Top2
+  - first:
+      1: 100112
+    second: Mouth_Under1
+  - first:
+      1: 100114
+    second: Mouth_Under2
+  - first:
+      1: 100116
+    second: Spine1
+  - first:
+      1: 100118
+    second: Spine2
+  - first:
+      1: 100120
+    second: Tail1
+  - first:
+      1: 100122
+    second: Tail2
+  - first:
+      1: 100124
+    second: Tail3
+  - first:
+      1: 100126
+    second: Tail4
+  - first:
+      1: 100128
+    second: Tail5
+  - first:
+      4: 400000
+    second: ArmL1
+  - first:
+      4: 400002
+    second: ArmL2
+  - first:
+      4: 400004
+    second: ArmL3
+  - first:
+      4: 400006
+    second: ArmR1
+  - first:
+      4: 400008
+    second: ArmR2
+  - first:
+      4: 400010
+    second: ArmR3
+  - first:
+      4: 400012
+    second: Character1_Ctrl_ChestEndEffector
+  - first:
+      4: 400014
+    second: Character1_Ctrl_ChestOriginEffector
+  - first:
+      4: 400016
+    second: Character1_Ctrl_Head
+  - first:
+      4: 400018
+    second: Character1_Ctrl_HeadEffector
+  - first:
+      4: 400020
+    second: Character1_Ctrl_Hips
+  - first:
+      4: 400022
+    second: Character1_Ctrl_HipsEffector
+  - first:
+      4: 400024
+    second: Character1_Ctrl_LeftAnkleEffector
+  - first:
+      4: 400026
+    second: Character1_Ctrl_LeftArm
+  - first:
+      4: 400028
+    second: Character1_Ctrl_LeftElbowEffector
+  - first:
+      4: 400030
+    second: Character1_Ctrl_LeftFoot
+  - first:
+      4: 400032
+    second: Character1_Ctrl_LeftForeArm
+  - first:
+      4: 400034
+    second: Character1_Ctrl_LeftHand
+  - first:
+      4: 400036
+    second: Character1_Ctrl_LeftHipEffector
+  - first:
+      4: 400038
+    second: Character1_Ctrl_LeftKneeEffector
+  - first:
+      4: 400040
+    second: Character1_Ctrl_LeftLeg
+  - first:
+      4: 400042
+    second: Character1_Ctrl_LeftShoulderEffector
+  - first:
+      4: 400044
+    second: Character1_Ctrl_LeftUpLeg
+  - first:
+      4: 400046
+    second: Character1_Ctrl_LeftWristEffector
+  - first:
+      4: 400048
+    second: Character1_Ctrl_Neck
+  - first:
+      4: 400050
+    second: Character1_Ctrl_Reference
+  - first:
+      4: 400052
+    second: Character1_Ctrl_RightAnkleEffector
+  - first:
+      4: 400054
+    second: Character1_Ctrl_RightArm
+  - first:
+      4: 400056
+    second: Character1_Ctrl_RightElbowEffector
+  - first:
+      4: 400058
+    second: Character1_Ctrl_RightFoot
+  - first:
+      4: 400060
+    second: Character1_Ctrl_RightForeArm
+  - first:
+      4: 400062
+    second: Character1_Ctrl_RightHand
+  - first:
+      4: 400064
+    second: Character1_Ctrl_RightHipEffector
+  - first:
+      4: 400066
+    second: Character1_Ctrl_RightKneeEffector
+  - first:
+      4: 400068
+    second: Character1_Ctrl_RightLeg
+  - first:
+      4: 400070
+    second: Character1_Ctrl_RightShoulderEffector
+  - first:
+      4: 400072
+    second: Character1_Ctrl_RightUpLeg
+  - first:
+      4: 400074
+    second: Character1_Ctrl_RightWristEffector
+  - first:
+      4: 400076
+    second: Character1_Ctrl_Spine
+  - first:
+      4: 400078
+    second: //RootNode
+  - first:
+      4: 400080
+    second: Dino_Back
+  - first:
+      4: 400082
+    second: Dino_Body
+  - first:
+      4: 400084
+    second: Dino_Center
+  - first:
+      4: 400086
+    second: Dino_Face
+  - first:
+      4: 400088
+    second: Dino_Teeth
+  - first:
+      4: 400090
+    second: Head
+  - first:
+      4: 400092
+    second: Head_End
+  - first:
+      4: 400094
+    second: LegL1
+  - first:
+      4: 400096
+    second: LegL2
+  - first:
+      4: 400098
+    second: LegL3
+  - first:
+      4: 400100
+    second: LegR1
+  - first:
+      4: 400102
+    second: LegR2
+  - first:
+      4: 400104
+    second: LegR3
+  - first:
+      4: 400106
+    second: Mesh
+  - first:
+      4: 400108
+    second: Mouth_Top1
+  - first:
+      4: 400110
+    second: Mouth_Top2
+  - first:
+      4: 400112
+    second: Mouth_Under1
+  - first:
+      4: 400114
+    second: Mouth_Under2
+  - first:
+      4: 400116
+    second: Spine1
+  - first:
+      4: 400118
+    second: Spine2
+  - first:
+      4: 400120
+    second: Tail1
+  - first:
+      4: 400122
+    second: Tail2
+  - first:
+      4: 400124
+    second: Tail3
+  - first:
+      4: 400126
+    second: Tail4
+  - first:
+      4: 400128
+    second: Tail5
+  - first:
+      21: 2100000
+    second: dino_face_01
+  - first:
+      21: 2100002
+    second: dino_00
+  - first:
+      43: 4300000
+    second: Dino_Face
+  - first:
+      43: 4300002
+    second: Dino_Teeth
+  - first:
+      43: 4300004
+    second: Dino_Back
+  - first:
+      43: 4300006
+    second: Dino_Body
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Dino_Back
+  - first:
+      137: 13700002
+    second: Dino_Body
+  - first:
+      137: 13700004
+    second: Dino_Face
+  - first:
+      137: 13700006
+    second: Dino_Teeth
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dino_00
+    second: {fileID: 2100000, guid: 4afa50d75d1d573448bafef444bc74f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dino_face_01
+    second: {fileID: 2100000, guid: fd522d915c89c234185aa429839595a5, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Dino(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: Dino(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dino_Face
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dino_Teeth
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dino_Back
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dino_Body
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dino_Center
+      parentName: Dino(Clone)
+      position: {x: -0, y: 0.20965734, z: -0.0016898784}
+      rotation: {x: -0.4665027, y: 0.53138995, z: -0.4665027, w: 0.5313899}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Spine1
+      parentName: Dino_Center
+      position: {x: -0.093633175, y: -9.395013e-10, z: 2.3308082e-17}
+      rotation: {x: -0.000000059604645, y: -0, z: 0.29855722, w: -0.9543918}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -0.0498734, y: 0.000000002187098, z: 1.3927747e-16}
+      rotation: {x: -0.0000000605318, y: 0.00000004377069, z: 0.004059195, w: 0.9999918}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000007}
+    - name: Head
+      parentName: Spine2
+      position: {x: -0.06055237, y: -0.000000007585267, z: 4.4681194e-16}
+      rotation: {x: 4.1218223e-10, y: 0.0000000082676115, z: -0.5777013, w: -0.81624836}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: Head_End
+      parentName: Head
+      position: {x: -0.4386442, y: -1.7763568e-17, z: -9.280318e-18}
+      rotation: {x: -0.045007456, y: -0.705673, z: -0.045007396, w: 0.705673}
+      scale: {x: 1, y: 1.0000005, z: 1.0000006}
+    - name: Mouth_Top1
+      parentName: Head
+      position: {x: -0.0066837952, y: -0.012740678, z: -4.4919328e-18}
+      rotation: {x: 0.0000000663794, y: -0.000000056686183, z: 0.6180379, w: 0.78614837}
+      scale: {x: 1.0000013, y: 1.0000002, z: 1.0000012}
+    - name: Mouth_Top2
+      parentName: Mouth_Top1
+      position: {x: -0.24796669, y: 2.842171e-16, z: 1.6355027e-17}
+      rotation: {x: -0.4715152, y: -0.5269473, z: -0.47151506, w: 0.52694744}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000006}
+    - name: Mouth_Under1
+      parentName: Head
+      position: {x: 0.0075651556, y: -0.028778754, z: -4.5937376e-18}
+      rotation: {x: -0.7262182, y: -0.68746436, z: -0.00000002769178, w: 0.000000020876753}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000006}
+    - name: Mouth_Under2
+      parentName: Mouth_Under1
+      position: {x: -0.24533685, y: -1.4210854e-16, z: -6.237301e-18}
+      rotation: {x: 0.48153153, y: 0.51781017, z: -0.48153147, w: 0.5178102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmL1
+      parentName: Spine1
+      position: {x: 0.08761435, y: -0.0910795, z: -0.27867532}
+      rotation: {x: -0.05039067, y: 0.74686056, z: -0.23571876, w: -0.6197555}
+      scale: {x: 1, y: 0.9999999, z: 1.0000004}
+    - name: ArmL2
+      parentName: ArmL1
+      position: {x: -0.031269997, y: -4.5310403e-10, z: -0.0000000046542903}
+      rotation: {x: -0.016782042, y: 0.04238363, z: -0.11855599, w: 0.99190044}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000007}
+    - name: ArmL3
+      parentName: ArmL2
+      position: {x: -0.032970708, y: -0.000000008043496, z: 0.000000007247974}
+      rotation: {x: 0.037509363, y: 0.15193447, z: -0.25692448, w: 0.95367646}
+      scale: {x: 1, y: 1.0000014, z: 1.0000012}
+    - name: ArmR1
+      parentName: Spine1
+      position: {x: 0.08761433, y: -0.09107949, z: 0.2786755}
+      rotation: {x: -0.050390083, y: 0.7468655, z: 0.23571622, w: 0.6197505}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000011}
+    - name: ArmR2
+      parentName: ArmR1
+      position: {x: -0.03126999, y: -0.00000004374397, z: -0.0000005386522}
+      rotation: {x: 0.016780147, y: -0.042391267, z: -0.118555635, w: 0.9919002}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000004}
+    - name: ArmR3
+      parentName: ArmR2
+      position: {x: -0.03297049, y: 0.000000010538268, z: 0.000000018209091}
+      rotation: {x: 0.1519327, y: -0.037510235, z: -0.9536759, w: -0.2569273}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000012}
+    - name: LegL1
+      parentName: Dino_Center
+      position: {x: 0.0693148, y: -0.0051661506, z: -0.27794945}
+      rotation: {x: -0.17449446, y: -0.9825003, z: -0.0030304487, w: -0.06508153}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.000001}
+    - name: LegL2
+      parentName: LegL1
+      position: {x: -0.078527704, y: 0.00000041551993, z: -0.000000043731205}
+      rotation: {x: -0.010243953, y: -0.0035175085, z: -0.06418085, w: 0.9978795}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: LegL3
+      parentName: LegL2
+      position: {x: -0.06581602, y: 0.000000016522867, z: 0.0000000015407852}
+      rotation: {x: 0.04150646, y: 0.7538649, z: -0.023337733, w: 0.6553017}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: LegR1
+      parentName: Dino_Center
+      position: {x: 0.06931501, y: -0.005166172, z: 0.2779495}
+      rotation: {x: 0.17439085, y: 0.982519, z: -0.003023371, w: -0.06507868}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: LegR2
+      parentName: LegR1
+      position: {x: -0.0785274, y: 0.0000008180469, z: 0.00000007571996}
+      rotation: {x: -0.010232288, y: -0.0035263374, z: 0.06394667, w: -0.9978947}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: LegR3
+      parentName: LegR2
+      position: {x: -0.0658162, y: -0.0000000018960629, z: -0.000000021566267}
+      rotation: {x: 0.7538627, y: -0.04159534, z: -0.6552953, w: -0.023431893}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Tail1
+      parentName: Dino_Center
+      position: {x: 0.038957782, y: 0.11708222, z: 3.549874e-32}
+      rotation: {x: 0.046317857, y: -0.99873376, z: 0.006320714, w: 0.018588899}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Tail2
+      parentName: Tail1
+      position: {x: -0.09915773, y: 0, z: 1.9460847e-18}
+      rotation: {x: 0.00000007041412, y: -0.00000003489481, z: -0.0677121, w: 0.9977049}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: Tail3
+      parentName: Tail2
+      position: {x: -0.089863636, y: 3.5527136e-17, z: -2.5894848e-17}
+      rotation: {x: 0.6716714, y: 0.7289208, z: -0.044287123, w: 0.12478277}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000006}
+    - name: Tail4
+      parentName: Tail3
+      position: {x: -0.06388063, y: 3.5527136e-17, z: -1.707789e-17}
+      rotation: {x: 0.000000015956621, y: 0.000000014741341, z: -0.13565354, w: 0.9907564}
+      scale: {x: 1.0000005, y: 0.9999995, z: 1.0000002}
+    - name: Tail5
+      parentName: Tail4
+      position: {x: -0.048651297, y: -8.881784e-18, z: -6.7871906e-18}
+      rotation: {x: -0.50000006, y: 0.49999994, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
