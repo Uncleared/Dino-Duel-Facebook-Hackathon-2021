@@ -4,7 +4,7 @@ The project was created with Unity 2020.3.23 so make sure to open it up with tha
 
 ## Things to be mindful of
 The game makes use of hand tracking and passthrough, so make sure to enable Hand Tracking on your Meta Quest 2 device, and also turn Experimental Features on.
-## How to load the game
+## How to load the game(APK)
 You can sideload the game onto your Meta Quest 2 using Side Quest or an adb command. The apk can be found in the "apkbuilds" folder, named "DinoDuel.apk".
 ## Commands
 The plan was to include every single compliment and discouragement I could think of, so that there is no need for a tutorial. However, I ran out of time. If you're struggling to adjust the Dino's morale, say things like "you're amazing", "doing good", "you suck", "you're an idiot sandwhich".
