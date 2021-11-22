@@ -1,6 +1,6 @@
 # Dino-Duel-Facebook-Hackathon-2021
 ## Project
-The project was created with Unity 2020.3.23 so make sure to open it up with that
+The project was created with Unity 2020.3.23 so make sure to open it up with that. To access the main game scene, open the "DinoDuel" scene. There may be many extra scenes included because the project has iterated many times.
 
 ## Things to be mindful of
 The game makes use of hand tracking and passthrough, so make sure to enable Hand Tracking on your Meta Quest 2 device, and also turn Experimental Features on.
