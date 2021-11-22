@@ -4142,7 +4142,7 @@ MonoBehaviour:
     To begin the game, point at the egg and say "I choose you!"
 
     Reposition
-    the arena by pointing both index fingers down where you want it to be
+    the arena by pointing both index fingers down where you want it to be for 2.5s
 
 '
   m_isRightToLeft: 0
