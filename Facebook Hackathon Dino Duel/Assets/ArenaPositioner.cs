@@ -14,7 +14,7 @@ public class ArenaPositioner : MonoBehaviour
     void Start()
     {
         audioSource = transform.gameObject.AddComponent<AudioSource>();
-        //StartCoroutine(PositionArena());
+        StartCoroutine(PositionArena());
     }
 
     public void Reposition(Vector3 position)
@@ -23,7 +23,7 @@ public class ArenaPositioner : MonoBehaviour
         audioSource.PlayOneShot(arenaSpawnedClip);
         Vector3 projectedForward = Vector3.ProjectOnPlane(eye.transform.forward, transform.up);
         arena.transform.position = position;
-        //arena.transform.position -= Vector3.up * 0.3f;
+        arena.transform.position -= Vector3.up * 0.05f;
         arena.transform.rotation = Quaternion.LookRotation(projectedForward, Vector3.up);
     }
     IEnumerator PositionArena()

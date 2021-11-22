@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator RestartCoroutine()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(7f);
         Restart();
     }
     // Start is called before the first frame update
@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        gameOver = false;
         winnerText.gameObject.SetActive(false);
 
         turnBasedManager.Restart();

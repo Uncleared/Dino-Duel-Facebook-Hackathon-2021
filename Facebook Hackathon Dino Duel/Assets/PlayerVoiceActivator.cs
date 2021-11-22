@@ -100,7 +100,7 @@ public class PlayerVoiceActivator : MonoBehaviour, IActivator
         }
         if (command.Contains("not bad"))
         {
-            turnBasedController.RaiseMorale(2f / 7f);
+            turnBasedController.RaiseMorale(3f / 7f);
         }
 
         if (command.Contains("great"))
@@ -122,9 +122,14 @@ public class PlayerVoiceActivator : MonoBehaviour, IActivator
         {
             turnBasedController.RaiseMorale(-3f / 7f);
         }
-        if (command.Contains("idiot sandwich"))
+
+        if (command.Contains("too excited"))
         {
             turnBasedController.RaiseMorale(-3f / 7f);
+        }
+        if (command.Contains("idiot sandwich"))
+        {
+            turnBasedController.RaiseMorale(-5f / 7f);
         }
 
         if (command.Contains("you suck"))

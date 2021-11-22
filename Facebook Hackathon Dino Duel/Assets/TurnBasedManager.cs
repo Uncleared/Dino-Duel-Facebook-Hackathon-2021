@@ -22,6 +22,8 @@ public class TurnBasedManager : MonoBehaviour
 
     public void SpawnPokemon()
     {
+        turn = -1;
+
         dinoLogo.SetActive(false);
         hintGuide.SetActive(false);
         StartCoroutine(SpawnPokemonCoroutine());
@@ -62,7 +64,6 @@ public class TurnBasedManager : MonoBehaviour
         pokeball2.SetActive(true);
         player1.gameObject.SetActive(false);
         player2.gameObject.SetActive(false);
-        turn = -1;
         dinoLogo.SetActive(true);
         hintGuide.SetActive(true);
         player1.Revive();

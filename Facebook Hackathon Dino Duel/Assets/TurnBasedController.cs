@@ -241,6 +241,8 @@ public class TurnBasedController : MonoBehaviour
 
     public void Revive()
     {
+        animator = transform.GetComponentInChildren<Animator>();
+
         dead = false;
         animator.SetBool("Dead", false);
         health = maxHealth;
@@ -250,7 +252,7 @@ public class TurnBasedController : MonoBehaviour
     void Awake()
     {
         moraleMeter.morale = Random.Range(0f, 1f);
-    
+        PerformMoraleCheck();
         DeactivateTurn();
 
     }
