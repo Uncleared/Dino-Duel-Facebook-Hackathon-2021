@@ -1,6 +1,6 @@
 # Dino-Duel-Facebook-Hackathon-2021
 ## How to load the game(APK)
-You can sideload the game onto your Meta Quest 2 using Side Quest or an adb command. The apk can be found in the "apkbuilds" folder, named "DinoDuel.apk". If you're just here for the game, you don't have to download the whole repo, just navigate to apk and download that directly! 
+You can sideload the game onto your Meta Quest 2 using Side Quest or an adb command. The apk can be found in the "apkbuilds" folder, named "DinoDuel.apk". If you're just here for the game, you don't have to download the whole repo, just navigate to apk and download that directly! Alternatively, head over to the Releases tab.
 
 ## Things to be mindful of
 The game makes use of hand tracking and passthrough, so make sure to enable Hand Tracking on your Meta Quest 2 device, and also turn Experimental Features on. Also, since it uses voice, make sure to allow the app to record device audio
